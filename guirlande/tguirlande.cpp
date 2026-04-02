@@ -2,7 +2,6 @@
 
 tGuirlande::tGuirlande()
 {
-   // MonParIO.Lire(); // Pour corriger un bug en mode simulateur
     NumeroProgramme = 0;
 }
 
