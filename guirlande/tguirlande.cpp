@@ -6,6 +6,7 @@ tGuirlande::tGuirlande()
 }
 
 
+
 void tGuirlande::ExecuterPrg1()
 {
     unsigned char Leds[8]={0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80} ;
@@ -111,6 +112,7 @@ void IdentifierInversion()
 {
     ModeInversion = 1 & ValeurEntrees;
 }
+
 
 
 void tGuirlande::ExecuterProg()
